@@ -1,0 +1,124 @@
+header, body, footer{
+    background-color: rgb(238, 237, 237);
+    border: 0px; 
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(46, 83, 68);
+    border: 0px; 
+    padding: 20px 20px;
+}
+
+h1{
+        color:white;
+        font-size: 30px;
+ }
+header a{
+        color: white;
+        font-size: 20px;
+        
+        text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+body li{
+    display: inline;
+    margin-right: 5vw;
+
+}
+
+main a{
+    color: rgb(145, 146, 147);
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+
+body ul{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 110px;
+
+}
+
+body tr{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
+}
+
+
+.mystory{
+    height: 120vh;
+    background-image: url(images/codingskill.png);
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+
+.product1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px;
+    border-radius: 20px;
+    
+
+}
+
+.product1 div{
+    width: 300px;
+    text-align: center;
+
+}
+
+    
+
+.product1 h3{
+    font-size: 20px;
+}
+ .product1 p{
+    font-size: 15px;
+    color: rgb(74, 74, 74);
+ }   
+
+footer{
+    background-color: rgb(46, 83, 68);
+    color: rgb(231, 221, 221);
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    
+}
+/* 響應式網頁語法 */
+@media screen and (max-width: 768px){ 
+    header ul{
+        display: none;
+    }
+    header h1{
+        left:50;
+        transform: translateX(-50%);
+
+    }
+}

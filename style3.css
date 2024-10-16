@@ -1,0 +1,283 @@
+header, body, footer{
+    background-color: rgb(238, 237, 237);
+    border: 0px; 
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(46, 83, 68);
+    border: 0px; 
+    padding: 20px 20px;
+}
+
+h1{
+        color:white;
+        font-size: 30px;
+ }
+header a{
+        color: white;
+        font-size: 20px;
+        
+        text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+body li{
+    display: inline;
+    margin-right: 5vw;
+
+}
+
+main a{
+    color: rgb(145, 146, 147);
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+
+body ul{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 110px;
+
+}
+
+
+.msp3{
+    height: 100vh;
+    background-image: url(images/mspeng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+
+
+
+
+.product div{
+    width: 300px;
+    text-align: center;
+
+}
+.product img{
+    width: 100%;
+    
+}
+.product h3{
+    font-size: 20px;
+}
+
+.data_title {
+    color: #ffffff;
+    top: 0px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    width: 200px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+
+.listSkill{
+    border-radius: 5px;
+    height:720px;
+    width: 1458px;
+    left: 10px;
+    padding: 20px 30px 10x;
+    box-shadow: 10px 10px 50px 10px #121212;
+    margin-top: 950px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 8px 5px 30px 1px rgb(46, 83, 68);
+    border-width: 2px;
+    border-color: #000000;
+}
+
+
+.listSkill2{
+    display: flex;
+    box-shadow: 10px 10px 50px 10px #121212;
+    -webkit-box-shadow: 8px 5px 30px 1px rgb(46, 83, 68);
+    margin-top: 850px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px 90px;
+    border-radius: 5px;
+}
+
+.listSkill2 div{
+    width: 100px;
+    text-align: center;
+}
+.listSkill2 img{
+    width: 50%;
+}
+.listSkill2 h3{
+    font-size: 20px;
+}
+
+.listSkill3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px 80px;
+    border-radius: 5px;
+}
+
+
+.skill img{
+    display: flex;
+    width: 100px;
+    float: left;
+}
+    
+
+
+
+.listSkill3 div{
+    width: 100px;
+   text-align: center;
+}
+
+
+
+
+.listSkill3 h3{
+    text-align: center;
+    font-size: 20px;
+    color: #4c4d4c;
+}
+.listSkill3 h1{
+    font-size: 25px;
+    color: #5a916f;
+    text-align: center;
+
+}
+
+
+
+
+
+.listSkill{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+.listSkill li{
+    width: 25%;
+    padding: 90px 50px 40px 120px;
+    box-sizing: border-box;  /*讓width計算是從border往內*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+/* 圓形圖 */
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: #FCEA90;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden; /*把超過圓形的地方隱藏起來*/
+  }
+  
+  .circle::after{  /*中間的小圓，同body背景色*/
+    content: "";
+    display: block;
+    width: calc(100% - 20px);  /*calc()去計算*/
+    height: calc(100% - 20px);  /*calc()去計算*/
+    border-radius: 50%;
+    background-color: #F9FBFC;
+    position: relative;  /*要給優先度必需是可以定位的元素，所以給它 position: relative*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /*top、left完後，小圓的左上角剛好在正中間，所以要再平移回去50%*/
+  }
+    
+  .p90, .p180, .p270, .p360{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #A0DBDB;
+  }
+  
+  .p180{
+    top: 50%;
+  }
+  
+  .p270{
+    left: 0;
+    top: 50%;
+  }
+  
+  .p360{
+    left: 0;
+    top: 0;
+  }
+  
+
+
+footer{
+    background-color: rgb(46, 83, 68);
+    color: rgb(231, 221, 221);
+    height: 30px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    
+}
+/* 響應式網頁語法 */
+@media screen and (max-width: 768px){ 
+    header ul{
+        display: none;
+    }
+    header h1{
+        left:50;
+        transform: translateX(-50%);
+
+    }
+    .listSkill{
+        flex-direction: column;
+
+    }
+
+    .listSkill2{
+        flex-direction: column;
+    }
+    .data_title{
+        width: 50x;
+    }
+    .listSkill3 img{
+        width: 50px;
+    }
+    .listSkill3 h3{
+        font-size: 10px;
+}
+    .listSkill3 h1{
+    font-size: 5px;
+}
+
+
+}
