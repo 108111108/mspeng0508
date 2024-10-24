@@ -106,7 +106,7 @@ body tr{
 }
 
 .product1 div{
-    width: 300px;
+    width: 3h00px;
     text-align: center;
 
 }
@@ -136,6 +136,7 @@ p{
 @media screen and (max-width: 768px){ 
     .msp3{
         height:50vh;
+        width:50vh;
     }
     header h1{
         left:50;
