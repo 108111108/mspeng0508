@@ -1,4 +1,4 @@
-
+  
 header, body, footer{
     background-color: rgb(238, 237, 237);
     border: 0px; 
@@ -134,7 +134,9 @@ p{
 }
 /* 響應式網頁語法 */
 @media screen and (max-width: 768px){ 
-    
+    .msp3{
+        height:50vh
+    }
     header h1{
         left:50;
         transform: translateX(-50%);
