@@ -158,6 +158,7 @@ p{
    .msp img{
        max-width: 100%;
        height:300px;
+       {
     header h1{
         left:50;
         transform: translateX(-50%);
