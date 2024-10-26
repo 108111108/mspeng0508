@@ -141,7 +141,7 @@ p{
     header h1{
         left:50;
         transform: translateX(-50%);
-
+        font-size:15px;
     }
     .product div{
         width: 300px;
