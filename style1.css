@@ -154,7 +154,7 @@ p{
 }
 /* 響應式網頁語法 */
 @media screen and (max-width: 768px){ 
-    .msp3{
+    .msp3 img{
         max-width: 100%;
         height: 300px;
 {
