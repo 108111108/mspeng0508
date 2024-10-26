@@ -135,8 +135,8 @@ p{
 /* 響應式網頁語法 */
 @media screen and (max-width: 768px){ 
     .msp3{
-        height:50vh;
-        width:40vh;
+        height:50px;
+        width:60px;
     }
     header h1{
         left:50;
