@@ -108,6 +108,7 @@ body tr{
     position: relative;
     background-color: rgb(168, 168, 168);
     width: 200px;
+    height: 30px;
     text-align: center;
     border: 1px solid #000000;
 }
