@@ -120,9 +120,5 @@ p{
     header h1{
         display: none;
     }
-    header h1{
-        left:20;
-        transform: translateX(-50%);
-        font-size:15px;
-    }
+   
 }
