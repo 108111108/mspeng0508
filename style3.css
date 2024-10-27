@@ -255,7 +255,7 @@ p{
         height: 300px;
         {
     header h1{
-        left:50;
+        left:20;
         transform: translateX(-50%);
         font-size:15px;
     }
